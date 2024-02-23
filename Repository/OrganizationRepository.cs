@@ -1,11 +1,24 @@
 
-public class OrganizationRepository : IOrganizationRepository
+using System.Data;
+using Dapper;
+
+public class OrganizationRepository(IDbConnection _dbConnection) : IOrganizationRepository
 {
-    public Task<bool> CreateOrganization(Organization organization)
+    public async Task<bool> CreateOrganization(Organization organization)
     {
 
         //databse 
         //sql 
-        throw new NotImplementedException();
+        try
+        {
+            var sql = "INSERT INTO organization (id,name,image) VALUES (@Id, @Name, @Image)";
+            var result = await _dbConnection.ExecuteAsync(sql, organization);
+            return true;
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+
     }
 }

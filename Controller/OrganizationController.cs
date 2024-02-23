@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 public class OrganizationController(IMediator _mediator) : ControllerBase
 {
     [HttpPost]
-    public async Task<ActionResult<CreateOrganizationResponse>> Add([FromBody] CreateOrganizationCommand command)
+    public async Task<ActionResult<CreateOrganizationResponse>> Add([FromQuery] CreateOrganizationCommand command)
     {
 
         var resposne = await _mediator.Send(command);
@@ -18,9 +18,6 @@ public class OrganizationController(IMediator _mediator) : ControllerBase
         //race condition 
 
         //define wahta async await does 
-
-
-
 
     }
 

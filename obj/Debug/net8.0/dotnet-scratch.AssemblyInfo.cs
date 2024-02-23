@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-scratch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+facba8d4b02a434927e4b1ac91eb0d1095db7c32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+671230b1a4a6d6d035bf0dd7ff5708f73ac48a72")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-scratch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-scratch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

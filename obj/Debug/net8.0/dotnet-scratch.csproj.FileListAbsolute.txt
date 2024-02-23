@@ -73,3 +73,4 @@ E:\scratch\dotnet-scratch\obj\Debug\net8.0\dotnet-scratch.pdb
 E:\scratch\dotnet-scratch\obj\Debug\net8.0\dotnet-scratch.genruntimeconfig.cache
 E:\scratch\dotnet-scratch\obj\Debug\net8.0\ref\dotnet-scratch.dll
 E:\scratch\dotnet-scratch\bin\Debug\net8.0\FluentValidation.dll
+E:\scratch\dotnet-scratch\obj\Debug\net8.0\dotnet-scratch.sourcelink.json
